@@ -16,8 +16,11 @@ Rather than just building a dashboard, I treated this as a full data engineering
 The final deliverable is a multi-view, interactive application built entirely within Excel, utilizing hidden calculation sheets and linked shape navigation.
 
 1. **Executive Summary:** A macro view of global sales, profit margins, and total revenue leakage, featuring a dynamic waterfall chart bridging gross sales down to net profit.
-2. **Logistics Diagnostics:** Tracks fulfillment efficiency, correlating specific shipping modes with average delay days and mapping order volume across late delivery risks.
-3. **Fraud Control Center:** A targeted risk dashboard. 
+   ![Executive Summary Dashboard](Screenshots/Executive_Summary.png)
+3. **Logistics Diagnostics:** Tracks fulfillment efficiency, correlating specific shipping modes with average delay days and mapping order volume across late delivery risks.
+   ![Logistics Diagnostics Dashboard](Screenshots/Logistics_Diagnostics.png)
+5. **Fraud Control Center:** A targeted risk dashboard.
+   ![Fraud Control Center Dashboard](Screenshots/Fraud_Control.png)
 
 ## Key Business Insights
 * **The Wire Transfer Vulnerability:** The data analysis revealed a critical security flaw in the payment infrastructure. 100% of all suspected fraud cases (4,062 total transactions costing $825,935 in lost revenue) were executed via Wire Transfer. No fraud was detected across Debit, Credit, or Cash payments.
